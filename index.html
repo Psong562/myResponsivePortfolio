@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./reset.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>Document</title>
+<style>
+  
+body{
+  background-color: #e0e2db;
+}
+
+.navbar-brand{
+  font-size: 50px;
+}
+
+section {
+  padding: 30px;
+}
+
+.photo{
+  border: solid black 5px;
+  height: 500px;
+  width: auto;
+
+}
+
+footer {
+  text-align: center;
+  background-color: #2e3532;
+  color: #e0e2db;
+  padding: 15px;
+}
+  
+@media only screen and (max-width:600px) {
+  .photo {
+    width: 100%;
+    display: block;
+    
+  }
+}
+
+</style>
+
+</head>
+<body>
+  <div class="container-fluid">
+  <div class="row">
+  <nav class="navbar navbar-light" style="background-color: #2e3532;">
+    <div class="container-fluid">
+      <a class="navbar-brand">Peter Song</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact Me</a>
+        </ul>
+        
+      </div>
+      
+    </div>
+  </nav>
+  </div>
+<section class="row">
+  <section class="col-7">
+    <h1>About Me</h1>
+      <p>My Name is Peter Song, born on September 1st, 1991 in Fountain Valley, California and rasied in Signal Hill, Califnornia
+        I am in the second generation of my family and the first to graduate college. I graduated California State University of Long Beach with a Bachelors in Science in Biochemistry
+        I always wanted to become an Optometrist or and Ophthalmologist since I was a little kid but I did not end up following that route.
+        Since being in the medical field for approx. 10 years I wanted to learn something new and broaden my knowledge so i decided In pursing coding and Web Development.
+        I hope to become a very successful web developer/programmer.
+      </p>
+     <h2>Hobbies</h2>
+     <p> I have many hobbies but I enjoy sports the most. I used to play Badminton in high school and was CIF tournament winning in 2009 in mix doubles.
+       I also currently like playing basketball, volleyball and football. I like to do activities that keep me moving because if im staying still too long i get anxious.
+
+
+     </p> 
+  </section>
+  <figure class="col-5">
+    <img class="photo" src="./Assets/Fancy Photo.jpeg" class="rounded mx-auto d-block" alt="fancyPhoto">
+  </figure>
+</section>
+
+
+  </div>
+  </header>
+
+
+<footer class="container-fluid">
+  Peter Song
+  <br />
+  (562) 896-1650
+  <br />
+  psong562@gmail.com
+</footer>
+  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
