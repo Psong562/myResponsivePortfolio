@@ -14,10 +14,14 @@
 
 body{
   background-color: #e0e2db;
+  
 }
+
+
 
 .navbar-brand{
   font-size: 50px;
+   
 }
 
 figure {
@@ -52,13 +56,14 @@ footer {
     display: block;}  
 }
 
+
   </style>
 
 </head>
 
 <body>
   <div class="container-fluid">
-    <div class="row">
+    <div id="navbar" class="row">
       <nav class="navbar navbar-light" style="background-color: #2e3532;">
         <div class="container-fluid">
           <a class="navbar-brand">Peter Song</a>
@@ -85,22 +90,33 @@ footer {
       </nav>
     </div>
     <section class="row">
-      <h1>Portfolio</h1>
+      <h1>Portfolio</h1><Figure class="col-6 text-center">
+        <a href="https://psong562.github.io/catchAllTheDadJokes/" target="blank"><img class="hover"
+            src="./Assets/pokemonBackground.png" class="rounded mx-auto d-block" alt="numbers">
+        </a>
+        <p class="text-center"> Safari Zone using Javascript</p>
+      </Figure>
       <figure class="col-6 text-center">
         <a href="https://psong562.github.io/myFavoriteDog/" target="blank"><img class ="hover" src="./Assets/Dachshund.jpeg" class="rounded mx-auto d-block" alt="dachshund">
           </a>
-          <p class="text-center"> My favorit dog in Bootstrap</p>
+          <p class="text-center"> My favorite dog in Bootstrap</p>
       </figure>
-      <figure  class="col-6 text-center">
-        <a href="https://psong562.github.io/myFlag/" target="blank"><img class ="hover" src="./Assets/americanFlag.jpeg" class="rounded mx-auto d-block" alt="flag">
-          </a>
-          <p class="text-center"> A Flag made in Bootstrap</p>
-        </figure>
+      
     <figure class="row">
-      <Figure class="col-12 text-center">
+      <Figure class="col-6 text-center">
         <a href="https://psong562.github.io/rockPaperScissors/" target ="blank"><img class ="hover" src="./Assets/rockPaperScissors.jpeg" class="rounded mx-auto d-block" alt="numbers">
           </a>
           <p class="text-center"> Rock Paper Scissors using Javascript</p>
+      </Figure><figure class="col-6 text-center">
+        <a href="https://psong562.github.io/myFlag/" target="blank"><img class="hover" src="./Assets/americanFlag.jpeg"
+            class="rounded mx-auto d-block" alt="flag">
+        </a>
+        <p class="text-center"> A Flag made in Bootstrap</p>
+      </figure>
+      <Figure class="col-6 text-center">
+        <a href="https://psong562.github.io/catchAllTheDadJokes/" target ="blank"><img class ="hover" src="./Assets/pokemonBackground.png" class="rounded mx-auto d-block" alt="numbers">
+          </a>
+          <p class="text-center"> Safari Zone using Javascript</p>
       </Figure>
     </figure>
     </section>
